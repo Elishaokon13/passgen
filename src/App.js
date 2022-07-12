@@ -90,8 +90,7 @@ const App = () => {
       <div className="container">
         <div className="generator">
           <h2 className="generator__header">
-           Password Generator
-          </h2>
+           Password Generator          </h2>
           <div className="generator__password">
             <h3 >{password}</h3>
             <button className="copy__btn">
@@ -121,6 +120,9 @@ const App = () => {
           <button onClick={handleGeneratePassword} className="generator__btn">
             Generate Password
           </button>
+          <div className="generator__footer">
+            <h3>ElishaDavid</h3>
+          </div>
           <ToastContainer
             position="top-center"
             autoClose={5000}

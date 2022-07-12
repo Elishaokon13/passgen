@@ -50,3 +50,9 @@
   color: gre;
   margin-bottom: 15px;
 }
+.generator__footer{
+  margin-top: 25px;
+  text-align: center;
+  color: darkgreen;
+  margin-bottom: 20px;
+}
